@@ -30,13 +30,13 @@ class MyWindow(QtWidgets.QMainWindow):
     def run_startup_script(self):
         try:
             # Specify the path to the Python file you want to run
-            subprocess.run(["python", "/home/mechatronics/install/install/launch/startup.py"])
+            subprocess.run(["python", "../../launch/startup.py"])
         except Exception as e:
             print("Error:", e)
 
     def closeEvent(self, event):
         # Define the path to the bash script
-        bash_script_path = "/home/mechatronics/gui/gui/scripts/cleanup_scripts.sh"
+        bash_script_path = "../scripts/cleanup_scripts.sh"
 
         # Run the bash script using subprocess
         subprocess.Popen(["bash", bash_script_path])

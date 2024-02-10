@@ -8,7 +8,9 @@ fi
 
 operation="$1"
 script_name="$2"
-file_path="/home/mechatronics/install/install/launch/startupConfig.json"
+file_path="../../launch/startupConfig.json"
+
+echo "Working directory for edit_startup_config.sh: $(pwd)"
 
 # Read the JSON file
 json_data=$(<"$file_path")

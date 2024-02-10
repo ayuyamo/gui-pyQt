@@ -33,4 +33,4 @@ class Launch(QObject):
 
             operation = "delete"
         
-        subprocess.Popen(["bash", "/home/mechatronics/gui/gui/scripts/edit_startup_config.sh", operation, checkbox.objectName() + ".py"])        
+        subprocess.Popen(["bash", "../scripts/edit_startup_config.sh", operation, checkbox.objectName() + ".py"])        
