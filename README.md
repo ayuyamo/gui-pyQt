@@ -9,3 +9,4 @@ To run the GUI, navigate to the directory containing `main.py` and execute the f
 python3 main.py
 ```
 
+**For more information about the SDSU Mechatronics Club and its submarine projects, visit https://www.sdsumechatronics.org/.**
